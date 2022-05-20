@@ -1,0 +1,8 @@
+# Default values for rmsscangun.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+scangun:
+  image: rms-harbor-14dev.la-z-boy.com/rms-nonprod/rms-scangunapp@sha256:5c6211c0d9d8eaeed437775471e3bf1a9d2e7b56adf48b9339c101ef8f425324

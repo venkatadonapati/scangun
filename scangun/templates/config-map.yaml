@@ -1,0 +1,16 @@
+apiVersion: v1
+data:
+    REACT_APP_BASE_RMS_URL: "https://rms-dev.la-z-boy.com/lazbox"
+    REACT_APP_HIDE_ENVIRONMENT_TAB: "false"
+    REACT_APP_HIDE_RECEIVING: "false"
+    REACT_APP_HIDE_TRANSFER: "false"
+    REACT_APP_HIDE_CYCLE: "false"
+    REACT_APP_HIDE_MANIFEST: "false"
+    REACT_APP_HIDE_RETURNS: "false"
+    REACT_APP_HIDE_PRINT: "false"
+    REACT_APP_HIDE_REAL_LIST_OF_PRINTERS: "false"
+kind: ConfigMap
+metadata:
+  name: scangun-cm
+  namespace: scangun
+
